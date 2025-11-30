@@ -6,3 +6,4 @@ Product images for [xianbridal.co.nz](https://github.com/Intai/xianbridal-co-nz)
 - File name contains the width. e.g. `304TA-1-2000.webp` has a width of 2000 pixels for product `304TA`.
 - Serve .webp at widths of 200, 500, 1000, 2000, and the original width (as max) for better compression. Skip any target width larger than the original. Have the original width in .webp file name as well.
 - Use `cwebp` command line for compression.
+- Use `sips --resampleWidth` to resize an image to a specific width in pixels, while automatically preserving the aspect ratio.
